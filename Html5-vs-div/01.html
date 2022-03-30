@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <meta Charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>3-Spalten-Layout mit Div</title>
+ <style>
+ #header {
+ border:1px solid blue;
+ color:red;
+ text-allign:center;
+ text-decoration:underline;
+ }
+ #container {
+ position:relative;
+ width:100%;
+ }
+ #left {
+ border:1px solid blue;
+ float:left;
+ min-width:33.19%;
+ }
+ #middle {
+ border:1px solid blue;
+ float:left;
+ min-width:33.19%;
+ }
+ 
+ #right {
+ border:1px solid blue;
+ float:right;
+ min-width:33.19%;
+ }
+ #footer {
+ width:100%;
+ border:3px solid blue;
+ bottom:10px;
+ position:fixed;
+ }
+ </style>
+ </head>
+ 
+ <body>
+<div id="header">
+<h1>Das ist ein 3spalten Layout Div</h1>
+</div>
+<div id="container">
+  <div id="left"><p>Linker container</p></div>
+  <div id="middle"><p>Mittlerer container</p></div>
+  <div id="right"><p>Rechter container</p></div>
+</div>
+<div id="footer"><p>Das ist die Fusszeile</p></div>
+</body>
+</html>

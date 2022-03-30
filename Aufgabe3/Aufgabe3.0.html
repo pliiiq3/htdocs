@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Aufgabe3</title>
+		<style>
+		.borderRadius{
+			border-radius: 0px 10px 10px 10px;
+		}
+		header{
+			border: dotted 1px lightgrey;
+			background-color: lightgrey;
+			margin-bottom:1%;
+			width:90%;
+		}
+		#nav{
+			border:solid 1px yellow;
+			margin-bottom: 1%;
+			width: 90%;
+			margin-left: 5%;
+			background-color: lightyellow;
+		}
+		img{
+			width:90%;
+		}
+		section{
+			border:solid 1px grey;
+			margin-bottom: 1%;
+			width: 90%;
+			background-color:grey;
+		}
+		aside{
+			border:solid 1px green;
+			background-color:lightgreen;
+			width: 90%;
+			margin-left:5%;
+			margin-bottom:1%;
+		}
+		article{
+			background:pink;
+			border:solid 1px red;
+			margin-bottom: 1%;
+			width: 90%;
+			margin-left: 5%;
+			margin-top: 1%
+		}
+		
+		footer{
+			border:solid 1px black;
+			width: 90%;
+			padding-top:1%;
+		}
+		.padding{
+			padding-left:2%;
+			padding-right:2%;
+		}
+		</style>
+	</head>
+	<body>
+	
+		<header class="borderRadius">
+			<figure>
+				<img src="../Aufgabe2/Banner-hell.png" alt="Banner-hell Image" />
+			</figure>
+			<nav class="borderRadius" id="nav">
+				<ul>
+					<li><a href="#">Startseite</a></li>
+					<li><a href="#">Unterseite 1</a></li>
+					<li><a href="#">Unterseite 2</a></li>
+					<li><a href="#">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="borderRadius">
+			<article class="borderRadius">
+				<h1 class="padding">CSS-basierte Layouts</h1>
+				<h2 class="padding">HTML-Struktur ohne CSS</h2>
+				<p class="padding">Diese Seite enthält zunächst nur die Struktur und den Inhalt. Das Aussehen wird erst in folgenden Beispielen über CSS definiert.</p>
+				<p class="padding">Dennoch ist diese Seite schon nutzbar und wird vom Browser entsprechen dessen Voreinstellungen bereits sinnvoll angezeigt.</p>
+			</article>
+			<aside class="borderRadius">
+				<h1 class="padding">Weiterführende Links</h1>
+				<nav>
+					<ul>
+						<li class="padding"><a href="#">Wiki</a></li>
+						<li class="padding"><a href="#">Blog</a></li>
+						<li class="padding"><a href="#">Forum</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</section>
+		<footer class="borderRadius padding">
+			<a href="#">Kontakt</a>
+			<p>&copy; by Mich</p>
+		</footer>
+		
+	</body>
+	</html>

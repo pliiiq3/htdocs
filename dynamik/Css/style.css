@@ -1,0 +1,19 @@
+
+ * {
+   box-sizing:border-box;
+  }
+   p {
+   width:200px;
+   background:rgb(109, 103, 107);
+  }
+  h1 {
+  width:200px;
+  background:aquamarine;
+  margin:10px;
+  border:10px solid rgb(22, 94, 116);
+  
+  }
+  article {
+  background:rgb(240, 192, 238);
+  width:220px;
+  }

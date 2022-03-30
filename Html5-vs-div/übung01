@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <meta Charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>3Spalten Layout HTML 5</title>
+ <style>
+ header {
+ border:solid black 3px;
+ text-align:center;
+ color:blue;
+ text-decoration:underlinde;
+ }
+ article {
+ text-align:left;
+ width:33.19%;
+ float:left;
+ border:1px ;
+ }
+ footer {
+ position:fixed;
+ bottom:10px;
+ border:3px;
+ width:100%;
+ 
+ }
+
+
+ #menu{
+   float:left;
+ min-width:10%;
+ }
+ #div1{
+   float:left;
+ min-width:80%;
+ }
+
+ #container {
+ position:relative;
+ width:100%;
+ }
+
+
+ article {
+ width:33.19%;
+ border:1px solid;
+ float:left;
+ }
+
+
+ nav {
+ position:left;
+ background-color: aqua;
+ }
+ #main1 {
+ margin-left: 250px;
+ }
+ footer{
+    position:fixed;
+    bottom: 0px;
+ }
+
+
+ </style>
+ </head>
+ <body>
+ <header>
+ <h1>Der Brennholzverkauf</h1>
+ </header>
+
+
+ <nav id="left"><p>Mittlerer container</p></nav>
+ <section id="main1">
+
+
+  
+   <article ><p>
+<h2> </h2>
+
+
+   </p></article>
+   
+  </section>
+
+
+
+ <footer><p>@by mich</p></footer>
+
+</body>
+</html>

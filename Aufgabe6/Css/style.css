@@ -1,0 +1,97 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-size:x-large;
+
+   font-size:16px ;
+   font-size:100% ;
+
+   background-color: rgb(0, 0, 0);
+   color: aliceblue;
+ 
+   
+}
+
+
+header,aside,nav,section,article,#main,#news,#newstext,footer{
+   border: 1px solid rgb(15, 218, 236);
+}
+
+h1{
+   color: rgb(0,200,0.7);
+   text-align: center;
+}
+
+aside{
+   width: 100%;
+   float: left;
+   clear: both;
+   background-color:rgb(90, 27, 27);
+}
+article{
+   width: 100%;
+   float: left;
+   background-color:#c9c9c9;
+   height:  220px ;
+}
+
+
+
+ul li {
+   list-style:none;
+   display: inline;
+}
+aside nav ul li a{
+   color:antiquewhite;
+   text-decoration: none;
+
+}
+aside nav ul li a:hover{
+   color: red;
+}
+footer{
+   
+   float: right;
+   display: inline;
+ 
+
+
+}
+
+#navABG ul li{
+   display:list-item;
+}
+
+#AGB  article{
+background-color: cadetblue;
+height:  107px ;
+}
+#AGB article p{
+   color: rgb(0,200,0.7);
+   text-align: center;
+}
+#AGB article p a{
+   color: rgb(0,200,0.7);
+   text-decoration: none;
+}
+#AGB article p a:hover{
+   color: rgb(0,200,0.7);
+   text-decoration: underline;
+}
+#AGB article p a:visited{
+   color: rgb(0,200,0.7);
+   text-decoration: none;
+}
+#AGB article p a:active{
+   color: rgb(0,200,0.7);
+   text-decoration: none;
+}
+#AGB article p a:focus{
+   color: rgb(0,200,0.7);
+   text-decoration: none;
+}
+#AGB article p a:hover{
+   color: rgb(0,200,0.7);
+   text-decoration: underline;
+}  
+

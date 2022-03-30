@@ -1,0 +1,25 @@
+body {
+	margin:0px;
+	padding:0px;
+	background:#24b8e6;
+	background:rgba(128, 54, 55, 0.1);
+	background:transparent;
+	font-size:16px;
+	font-size:100%;
+	}
+h1, h2, h3 {
+	color:orange;
+	text-decoration:underline;
+}
+header {
+	background:yellow;
+}
+header, nav, #main, section, aside, footer {
+border:1px solid black;
+padding:10px;
+margin:10px;
+}
+img {
+	width:100%;
+	height:auto;
+}

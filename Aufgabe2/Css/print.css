@@ -1,0 +1,8 @@
+body {
+   background:transparent;
+   color:black;
+   font-size:12px;
+}
+header, footer, aside {
+display:none;
+}

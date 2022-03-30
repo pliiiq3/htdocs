@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="CSS/print.css" media="print" />
+	<title> Formular </title>
+</head>
+
+<body>
+	<form method="post" action="mailto:email@adresse.de">
+		<legend>Felder mit * sind Pflichtfelder</legend>
+			
+			<fieldset id="persönliche daten">
+			<label>Anrede
+			<input name="Anrede" type="radio" value="Frau" />Herr
+			<input name="Anrede" type="radio" value="Herr" />Frau
+			</label>
+			
+			<label>Vorname<input name="Vorname" type="text" maxlength="50" /></label>
+			
+			<label>Nachname *<input name="Nachname" type="text" maxlength="50" required /></label>
+			
+			<label>Email *<input name="E-Mail" type="email" maxlength="50" required /></label>
+			</fieldset>
+			
+			<fieldset id="nachticht">
+			<label>Ihre Nachricht
+				<textarea cols="30" rows="5" name="Nachricht"></textarea>
+			</label>
+			<input type="submit" value="Abschicken" />
+			</fieldset>
+			
+			<p>Bitte senden Sie mir Material zu folgenden Themen:</p>
+			<input name="Info" size="Produkte" type="checkbox" />Produkte
+			<input name="Info" size="Messen" type="checkbox" />Messen
+			<input name="Info" size="Stellenangebote" type="checkbox" />Stellenangebote
+			
+			<label>Abteilung
+			<select name="Abteilung">
+			<option value="Verkauf">Verkauf</option>
+			<option value="Einkauf">Einkauf</option>
+			<option value="Technik">Technik</option>
+			</select>
+			</label>
+		
+	</form>
+</body>
+
+</html>
