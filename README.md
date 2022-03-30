@@ -39,7 +39,24 @@ git remote add origin git@github.com:pliiiq3/htdocs.git
 git push -u origin main
 
 
+
+
+# ------------------------------------------
+# update 
+
 # pull 
 git pull origin main
+
+# push
+git branch -M main
+git add .
+git commit -m "first commit5"
+git status
+git push -u origin main
+
+
+
+
+
 
 2010
